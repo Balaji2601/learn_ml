@@ -47,4 +47,5 @@ if __name__ == '__main__':
     clf.fit(X_train,y_train)
     predictions = clf.predict(X_test)
     acc = accuracy(y_test,predictions)
+    # print(acc)
     print(acc)
